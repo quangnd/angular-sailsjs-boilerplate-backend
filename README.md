@@ -1,15 +1,10 @@
 # Backend for angular-sailsjs-boilerplate
-[![GitHub version](https://badge.fury.io/gh/tarlepp%2Fangular-sailsjs-boilerplate-backend.svg)](https://badge.fury.io/gh/tarlepp%2Fangular-sailsjs-boilerplate-backend)
-[![Build Status](https://travis-ci.org/tarlepp/angular-sailsjs-boilerplate-backend.png?branch=master)](https://travis-ci.org/tarlepp/angular-sailsjs-boilerplate-backend)
-[![Dependency Status](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-backend.svg)](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-backend)
-[![devDependency Status](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-backend/dev-status.svg)](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-backend#info=devDependencies)
 
 Backend is a [Sails.js](http://sailsjs.org) application without frontend. See more info at http://sailsjs.org/ I have 
 just done some small tweaks to generic workflow of sails nothing else. Basically this only serves an API and
 user authentication services - nothing else. So the main difference withing sails normal workflow is that sails isn't 
 serving any "views", backend serves only JSON and nothing else.
 
-This backend code is part of [angular-sailsjs-boilerplate](https://github.com/tarlepp/angular-sailsjs-boilerplate) project.
 
 ## Installation
 First of all you have to install npm, node.js / io.js and sails to your box. Installation instructions can be 
@@ -42,6 +37,8 @@ There is an example of backend configuration file on following path:
 Just copy this file to ```/config/local.js``` and make necessary changes to it. Note that this ```local.js``` file is 
 in ```.gitignore``` so it won't go to VCS at any point.
 
+- Note: You need to create a new database in mySQL. And edit DB information in local.js file to run.
+
 ## Application start
 You can start this backend application as the same way as any sails / node application. This can be done by following
 commands:
@@ -72,10 +69,5 @@ Below is small list of possible failures that can occur while trying this.
 
 <em>And if _you_ have some problems, please add solutions to this list...</em>
 
-## Author
-Tarmo Leppänen
-
-## License
-The MIT License (MIT)
-
-Copyright (c) 2015 Tarmo Leppänen
+## References:
+- [angular-sailsjs-boilerplate](https://github.com/tarlepp/angular-sailsjs-boilerplate)
